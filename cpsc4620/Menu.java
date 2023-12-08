@@ -330,7 +330,7 @@ public class Menu {
 			boolean valid = false;
 			ArrayList<Integer> orderIDs = new ArrayList<Integer>();
 			for(Order o : orders) {
-				System.out.println(o);
+				System.out.println(o.toSimplePrint());
 				orderIDs.add(o.getOrderID());
 			}
 			do{
